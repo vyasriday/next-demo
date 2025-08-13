@@ -1,4 +1,10 @@
-import { TableSortable } from '@/app/components/Table';
+import Link from 'next/link'
 export default function Page() {
-  return <TableSortable />
+  return (
+    <nav>
+      <Link href="/patternfly">Patternfly React Table</Link>
+      <br/>
+      <Link href="/rhds">RHDS Table</Link>
+    </nav>
+  )
 }
